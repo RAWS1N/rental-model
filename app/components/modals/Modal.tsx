@@ -126,7 +126,7 @@ const Modal: React.FC<ModalProps> = ({
               <div className="
                 flex 
                 items-center 
-                p-6
+                p-4
                 rounded-t
                 justify-center
                 relative
@@ -155,7 +155,7 @@ const Modal: React.FC<ModalProps> = ({
                 {body}
               </div>
               {/*footer*/}
-              <div className="flex flex-col gap-2 p-6">
+              <div className="flex flex-col gap-2 pb-4 px-2">
                 <div 
                   className="
                     flex 

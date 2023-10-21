@@ -21,10 +21,12 @@ const CategoryBox: React.FC<CategoryBoxProps> = ({
       className={`
         rounded-xl
         border-2
-        p-4
+        py-3
+        px-4
         flex
-        flex-col
-        gap-3
+        items-center
+        justify-center
+        gap-2
         hover:border-black
         transition
         cursor-pointer

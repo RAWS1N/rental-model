@@ -34,6 +34,7 @@ export default async function getListingById(
           listing.user.emailVerified?.toString() || null,
       }
     };
+ 
   } catch (error: any) {
     throw new Error(error);
   }

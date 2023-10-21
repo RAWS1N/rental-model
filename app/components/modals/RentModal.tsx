@@ -129,7 +129,7 @@ const RentModal = () => {
   }, [step]);
 
   let bodyContent = (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-6">
       <Heading
         title="Which of these best describes your place?"
         subtitle="Pick a category"
@@ -139,7 +139,7 @@ const RentModal = () => {
           grid 
           grid-cols-1 
           md:grid-cols-2 
-          gap-3
+          gap-2
           max-h-[50vh]
           overflow-y-auto
         "
@@ -161,7 +161,7 @@ const RentModal = () => {
 
   if (step === STEPS.LOCATION) {
     bodyContent = (
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-6">
         <Heading
           title="Where is your place located?"
           subtitle="Help guests find you!"
@@ -177,7 +177,7 @@ const RentModal = () => {
 
   if (step === STEPS.INFO) {
     bodyContent = (
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-6">
         <Heading
           title="Share some basics about your place"
           subtitle="What amenitis do you have?"
@@ -208,7 +208,7 @@ const RentModal = () => {
 
   if (step === STEPS.IMAGES) {
     bodyContent = (
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-6">
         <Heading
           title="Add a photo of your place"
           subtitle="Show guests what your place looks like!"
@@ -223,7 +223,7 @@ const RentModal = () => {
 
   if (step === STEPS.DESCRIPTION) {
     bodyContent = (
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-6">
         <Heading
           title="How would you describe your place?"
           subtitle="Short and sweet works best!"
@@ -251,7 +251,7 @@ const RentModal = () => {
 
   if (step === STEPS.PRICE) {
     bodyContent = (
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-6">
         <Heading
           title="Now, set your price"
           subtitle="How much do you charge per night?"

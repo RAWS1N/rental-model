@@ -24,7 +24,7 @@ const CountrySelect: React.FC<CountrySelectProps> = ({
   const { getAll } = useCountries();
 
   return ( 
-    <div>
+    <div className="">
       <Select
         placeholder="Anywhere"
         isClearable
@@ -33,7 +33,7 @@ const CountrySelect: React.FC<CountrySelectProps> = ({
         onChange={(value) => onChange(value as CountrySelectValue)}
         formatOptionLabel={(option: any) => (
           <div className="
-          flex flex-row items-center gap-3">
+          flex  items-center gap-3">
             <div>{option.flag}</div>
             <div>
               {option.label},
@@ -44,9 +44,9 @@ const CountrySelect: React.FC<CountrySelectProps> = ({
           </div>
         )}
         classNames={{
-          control: () => 'p-3 border-2',
-          input: () => 'text-lg',
-          option: () => 'text-lg'
+          control: () => 'p-1.5 border-1 ',
+          input: () => 'text-md',
+          option: () => 'text-md'
         }}
         theme={(theme) => ({
           ...theme,
